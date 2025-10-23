@@ -1,6 +1,5 @@
 # app.py
 import streamlit as st
-import joblib
 import numpy as np
 
 @st.cache_resource
@@ -50,3 +49,4 @@ if st.button("Predict"):
                 st.write("---")
                 st.markdown(f"**Tweet:** {txt}")
                 st.markdown(f"**Prediction:** {pred_label}")
+
